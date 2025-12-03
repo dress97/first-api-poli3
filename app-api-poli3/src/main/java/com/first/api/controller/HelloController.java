@@ -43,5 +43,12 @@ public class HelloController {
         return "presentacion beta 1";
     }
 
+    //Este es otro comentario
+    //Agregamos algo 1
+    @GetMapping("/hello6")
+    public String saludar6(){
+        return "presentacion beta 1";
+    }
+
 }
 
