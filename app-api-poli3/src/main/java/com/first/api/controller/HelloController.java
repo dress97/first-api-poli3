@@ -36,5 +36,12 @@ public class HelloController {
         return "Hola Mundo desde jenkins con REST en Spring Boot";
     }
 
+    //Este es otro comentario
+    //Agregamos algo 1
+    @GetMapping("/hello5")
+    public String saludar5(){
+        return "presentacion beta 1";
+    }
+
 }
 
